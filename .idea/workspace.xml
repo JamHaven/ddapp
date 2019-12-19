@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd27e303-81fa-4137-83cf-b6e1681d51a3" name="Default Changelist" comment="Changes after merge">
-      <change afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/520bd063673fea618b82dd1b8a3bab5e89252814" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/923703ced91ac38943d37930d9d27a7ebe8f01ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +132,7 @@
       <workItem from="1576501407637" duration="7869000" />
       <workItem from="1576514776686" duration="7436000" />
       <workItem from="1576704294815" duration="7741000" />
+      <workItem from="1576717332224" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1576443697956</created>
@@ -160,7 +162,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576716913507</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Optical Changes">
+      <created>1576717416194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576717416194</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed SonarLint">
+      <created>1576717851845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576717851845</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added faulty directory to gitignore">
+      <created>1576717891696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576717891696</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +206,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Changes after merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes after merge" />
+    <MESSAGE value="Optical Changes" />
+    <MESSAGE value="Removed SonarLint" />
+    <MESSAGE value="Added faulty directory to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added faulty directory to gitignore" />
   </component>
 </project>
