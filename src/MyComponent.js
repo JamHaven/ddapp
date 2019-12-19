@@ -7,8 +7,14 @@ import {
     ContractForm
 } from '@drizzle/react-components';
 
+import logo from "./logo.png";
+
 const MyComponent = () => (
-  <div>
+  <div className="App">
+      <div>
+          <img src={logo} alt="drizzle-logo" />
+          <h1>Drizzle Playground</h1>
+      </div>
       <h2>Balance of first Account</h2>
       <AccountData accountIndex={0} units={"ether"} precision={3} />
 
