@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import { drizzleConnect } from 'drizzle-react';
+import MyComponent from "./MyComponent";
+import { drizzleConnect } from '@drizzle/react-plugin';
 
-const mapStateToProps = state => ({state})
+const mapStateToProps = state => {
+    return {
+        accounts: state.accounts,
+        Storage: state.contracts.Storage,
+        drizzleStatus: state.drizzleStatus,
+    };
+};
 
-class Container extends Component {
-    render(){
-        console.log(this.props);
-        return (<div>Storage</div>);
-    }
-}
+const Container = drizzleConnect(MyComponent, mapStateToProps);
 
-export default drizzleConnect(Container, mapStateToProps);
+export default Container;

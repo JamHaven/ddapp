@@ -1,9 +1,11 @@
 import React from 'react';
+//import { newContextComponents } from "@drizzle/react-components";
+//const { AccountData, ContractData, ContractForm } = newContextComponents;
 import {
     AccountData,
     ContractData,
     ContractForm
-} from 'drizzle-react-components';
+} from '@drizzle/react-components';
 
 const MyComponent = () => (
   <div>
