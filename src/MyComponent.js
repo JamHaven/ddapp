@@ -9,7 +9,7 @@ import {
 
 import logo from "./logo.png";
 
-const MyComponent = () => (
+export default() => (
   <div className="App">
       <div>
           <img src={logo} alt="drizzle-logo" />
@@ -27,5 +27,3 @@ const MyComponent = () => (
   </div>
 
 );
-
-export default MyComponent;
