@@ -1,13 +1,10 @@
 import React, {Component} from 'react';
 import "./App.css";
 
-/*import drizzleOptions from './drizzleOptions';
-import Container from "./Container";
-const options = { contracts: [Storage] };
-const drizzleStore = generateStore(options);
-const drizzle = new Drizzle(options, drizzleStore);*/
 import ReadContractData from "./ReadContractData";
 import WriteContractData from "./WriteContractData";
+import ReadProduct from './ReadProduct';
+import WriteProduct from './WriteProduct';
 
 class App extends Component {
     state = { loading: true, drizzleState: null };
@@ -42,6 +39,14 @@ class App extends Component {
                     drizzleState={this.state.drizzleState}
                 />
                 <WriteContractData
+                    drizzle={this.props.drizzle}
+                    drizzleState={this.state.drizzleState}
+                />
+                <ReadProduct
+                    drizzle={this.props.drizzle}
+                    drizzleState={this.state.drizzleState}
+                />
+                <WriteProduct
                     drizzle={this.props.drizzle}
                     drizzleState={this.state.drizzleState}
                 />

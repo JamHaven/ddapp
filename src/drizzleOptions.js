@@ -1,4 +1,5 @@
 import Storage from './contracts/Storage.json'
+import Product from './contracts/Product.json'
 const options = {
     contracts: [Storage],
     web3: {

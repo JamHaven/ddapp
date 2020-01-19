@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Drizzle, generateStore } from "@drizzle/store";
 import Storage from "./contracts/Storage.json";
+import Product from "./contracts/Product.json";
 import './index.css';
 import App from './App';
 
 const options = {
-    contracts: [Storage],
+    contracts: [Storage,Product],
     web3: {
         fallback: {
             type: "ws",
