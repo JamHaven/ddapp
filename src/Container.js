@@ -1,4 +1,4 @@
-import MyComponent from "./MyComponent";
+import ReadContractData from "./ReadContractData";
 import { drizzleConnect } from '@drizzle/react-plugin';
 
 const mapStateToProps = state => {
@@ -9,6 +9,6 @@ const mapStateToProps = state => {
     };
 };
 
-const Container = drizzleConnect(MyComponent, mapStateToProps);
+const Container = drizzleConnect(ReadContractData, mapStateToProps);
 
 export default Container;
