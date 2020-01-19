@@ -24,11 +24,17 @@ export default() => (
       <h2>setData() - Storage</h2>
       <ContractForm contract="Storage" method="setData" labels={['new value of "data"']} />
 
-      <h2>getProduct() - Product</h2>
-      <ContractData contract="Product" method="getProduct" />
+      <h2>getOwnedProducts() - Product</h2>
+      <ContractData contract="Product" method="getAllProductIds" />
 
       <h2>addProduct() - Product</h2>
-      <ContractForm contract="Product" method="addProduct" labels={['Product owner name"','Product name']} />
+      <ContractForm contract="Product" method="addProduct" labels={['Product owner name','Product name']} />
+
+      <h2>getProductsFromProductId() - Product</h2>
+      <ContractForm contract="Product" method="getProductFromProductId" labels={['Product ID']} />
+
+      <h2>getProductOwnerFromProductId() - Product</h2>
+      <ContractForm contract="Product" method="oachkattzl" labels={['Product ID','Product name']}/>
 
   </div>
 
