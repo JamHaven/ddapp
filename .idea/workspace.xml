@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd27e303-81fa-4137-83cf-b6e1681d51a3" name="Default Changelist" comment="Changes after merge">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/520bd063673fea618b82dd1b8a3bab5e89252814" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/923703ced91ac38943d37930d9d27a7ebe8f01ad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+    <list default="true" id="dd27e303-81fa-4137-83cf-b6e1681d51a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/contracts/Product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truffle/contracts/Product.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truffle/migrations/123213432_product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ddapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contracts/Storage.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/Storage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drizzleOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/drizzleOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle/truffle-config.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +32,13 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Mario R &lt;mario.rubak@stud.fh-campuswien.ac.at&gt;" />
         <option value="Mario Rubak &lt;jamhavengaming@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="refactorTononeLegacy" />
+        <entry key="$PROJECT_DIR$" value="SecondMethod" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +46,11 @@
   <component name="ProjectId" id="1V2FdZfxgCfGv7MqOyVx4qgXgRw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -54,7 +60,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/truffle/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,6 +72,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\logcreation\truffle\migrations" />
       <recent name="C:\Projects\logcreation\src" />
       <recent name="C:\Projects\logcreation\public" />
       <recent name="C:\Projects\logcreation\node_modules" />
@@ -73,18 +80,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\logcreation\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -114,8 +109,21 @@
       <list>
         <item itemvalue="npm.build" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -133,6 +141,7 @@
       <workItem from="1576514776686" duration="7436000" />
       <workItem from="1576704294815" duration="7741000" />
       <workItem from="1576717332224" duration="841000" />
+      <workItem from="1579397846021" duration="2797000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1576443697956</created>
@@ -183,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576717891696</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix for Component Bug">
+      <created>1579396556923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579396556923</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +225,29 @@
     <MESSAGE value="Optical Changes" />
     <MESSAGE value="Removed SonarLint" />
     <MESSAGE value="Added faulty directory to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added faulty directory to gitignore" />
+    <MESSAGE value="Fix for Component Bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix for Component Bug" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1035" y="504" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579397805843">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1035" y="504" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579397805843" />
+    <state x="1010" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579403343066">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579403343066" />
+    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1579403452716">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="905" y="295" key="CommitChangelistDialog2/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579403452716" />
+    <state x="781" y="343" key="SettingsEditor" timestamp="1579397834802">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="343" key="SettingsEditor/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579397834802" />
+    <state x="872" y="434" key="Vcs.Push.Dialog.v2" timestamp="1579396563446">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579396563446" />
   </component>
 </project>

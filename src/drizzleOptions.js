@@ -1,6 +1,7 @@
 import Storage from './contracts/Storage.json'
+import Product from './contracts/Product.json'
 const options = {
-    contracts: [Storage],
+    contracts: [Storage,Product],
     web3: {
         fallback: {
             type: "ws",
