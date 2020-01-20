@@ -33,8 +33,8 @@ export default() => (
       <h2>getProductsFromProductId() - Product</h2>
       <ContractForm contract="Product" method="getProductFromProductId" labels={['Product ID']} />
 
-      <h2>getProductOwnerFromProductId() - Product</h2>
-      <ContractForm contract="Product" method="oachkattzl" labels={['Product ID','Product name']}/>
+      <h2>isProduct() - Product</h2>
+      <ContractForm contract="Product" method="isProduct" />
 
   </div>
 

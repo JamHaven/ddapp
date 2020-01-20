@@ -4,7 +4,8 @@ pragma solidity >=0.5.0  <0.6.0;
 contract Product {
     address owner;
     uint256 startTime;
-    int productId;
+    uint256 productId;
+    event ReturnValue(address productOwnerAddress, string productOwnerName, string productName, uint creationDate);
 
     struct ProductInformation{
         address productOwnerAddress;
@@ -13,9 +14,9 @@ contract Product {
         uint creationDate;
     }
 
-    mapping (int => ProductInformation) productInfos;
+    mapping (uint256 => ProductInformation) productInfos;
 
-    int[] productInfoList;
+    uint256[] productInfoList;
 
     modifier onlyWhileOpen() {
         require(block.timestamp >= startTime);
@@ -44,16 +45,25 @@ contract Product {
     }
 
 
-    function getAllProductIds() view public returns(int[] memory){
+    function getAllProductIds() view public returns(uint256[] memory){
         return productInfoList;
     }
 
-    function getProductFromProductId(int  _productId) view public returns(address , string memory, string memory, uint ){
+    function getProductFromProductId(uint256  _productId) view public returns(address , string memory, string memory, uint ){
         return (productInfos[_productId].productOwnerAddress, productInfos[_productId].productOwnerName, productInfos[_productId].productName, productInfos[_productId].creationDate);
     }
 
-    function oachkattzl(int  _productId) view public returns(string memory){
-        return startTime;
+    function getProductCount() public view returns(uint productCount) {
+        return productInfoList.length;
     }
 
+    function isProduct(uint256 _productId, address _productOwnerAddress, string memory _productName)  public returns(bool isIndeed) {
+
+        if(keccak256(abi.encodePacked(productInfos[_productId].productOwnerAddress)) == keccak256(abi.encodePacked(_productOwnerAddress)) ){
+            if(keccak256(abi.encodePacked(productInfos[_productId].productName)) == keccak256(abi.encodePacked(_productName)) ){
+                return true;
+            }
+        }
+        return false;
+    }
 }

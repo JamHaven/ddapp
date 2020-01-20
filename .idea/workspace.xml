@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd27e303-81fa-4137-83cf-b6e1681d51a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contracts/Product.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/truffle/contracts/Product.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/truffle/migrations/123213432_product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ddapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contracts/Product.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/Product.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contracts/Storage.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/Storage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drizzleOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/drizzleOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truffle/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle/truffle-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle/contracts/Product.sol" beforeDir="false" afterPath="$PROJECT_DIR$/truffle/contracts/Product.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +137,7 @@
       <workItem from="1576704294815" duration="7741000" />
       <workItem from="1576717332224" duration="841000" />
       <workItem from="1579397846021" duration="2797000" />
+      <workItem from="1579478040961" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1576443697956</created>
@@ -233,14 +229,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1035" y="504" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579397805843" />
-    <state x="1010" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579403343066">
+    <state x="1010" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579479533303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579403343066" />
+    <state x="1010" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579479533303" />
     <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1579403452716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="905" y="295" key="CommitChangelistDialog2/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579403452716" />
+    <state width="2517" height="296" key="GridCell.Tab.0.bottom" timestamp="1579479700976">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="296" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579479700976" />
+    <state width="2517" height="296" key="GridCell.Tab.0.center" timestamp="1579479700976">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="296" key="GridCell.Tab.0.center/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579479700976" />
+    <state width="2517" height="296" key="GridCell.Tab.0.left" timestamp="1579479700976">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="296" key="GridCell.Tab.0.left/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579479700976" />
+    <state width="2517" height="296" key="GridCell.Tab.0.right" timestamp="1579479700976">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="296" key="GridCell.Tab.0.right/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579479700976" />
     <state x="781" y="343" key="SettingsEditor" timestamp="1579397834802">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -249,5 +261,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.168.1920.1040/-1920.180.1920.1040@0.0.2560.1400" timestamp="1579396563446" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@drizzle/react-components/src/ContractForm.js</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@drizzle/react-components/src/ContractForm.js</url>
+          <line>67</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@drizzle/react-components/src/ContractForm.js</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
